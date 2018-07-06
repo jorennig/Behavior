@@ -3,7 +3,7 @@ clear all
 close all
 clc
 
-% Get all csv files
+%% Get all csv files
 result_files = dir('*.csv');
 result_files = {result_files(:).name}';
 
@@ -152,7 +152,7 @@ for i = 1:numel(result_files)
     
 end
 
-% Sum up by subject
+%% Sum up by subject and save
 sub = unique(data_behav_tot(:,1));
 
 data_behav_sum = [];
