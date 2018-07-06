@@ -1,3 +1,4 @@
+%% Reads csv files and summarizes behavioral data per subject
 clear all
 close all
 clc
